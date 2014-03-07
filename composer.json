@@ -1,0 +1,22 @@
+{
+	"name": "opauth/probook",
+	"description": "Probook strategy for Opauth",
+	"keywords": ["authentication","auth","probook"],
+	"homepage": "http://opauth.org",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Georgi Georgiev",
+			"email": "georgi.client@gmail.com",
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"opauth/opauth": ">=0.2.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "."
+		}
+	}
+}
