@@ -82,7 +82,7 @@ class ProbookStrategy extends OpauthStrategy{
 					),
 					'credentials' => array(
 						'token' => $results['access_token'],
-						'expires' => date('c', time() + $results['expires'])
+						'expires' => date('c', time() + $results['expires_in'])
 					),
 					'raw' => $me
 				);
